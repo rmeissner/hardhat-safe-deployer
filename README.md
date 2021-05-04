@@ -9,7 +9,7 @@
   - the url of the Safe service that should be used
 
 ## Example config
-```ts=
+```ts
 import { setupSafeDeployer } from "hardhat-safe-deployer";
 
 import dotenv from "dotenv";
@@ -23,3 +23,5 @@ setupSafeDeployer(
   SAFE_SERVICE_URL
 )
 ```
+
+An example project can be found at: https://github.com/rmeissner/hardhat-safe-deployer-example
