@@ -7,13 +7,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "dist/src",
-    "dist/types*",
+    "dist/",
     "src/",
-    "types.ts",
     "LICENSE",
     "README.md"
   ],
