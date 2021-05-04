@@ -8,7 +8,7 @@ export class SafeProviderAdapter implements EthereumProvider {
 
     submittedTxs = new Map<string, any>();
 
-    createLibAddress = "0x7cbB62EaA69F79e6873cD1ecB2392971036cFAa4"
+    createLibAddress = "0x8538FcBccba7f5303d2C679Fa5d7A629A8c9bf4A"
     createLibInterface = new utils.Interface(["function performCreate(uint256,bytes)"])
     safeInterface = new utils.Interface(["function nonce() view returns(uint256)"])
     safeContract: Contract
