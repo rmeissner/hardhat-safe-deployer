@@ -10,4 +10,4 @@ const setupSafeDeployer = (signer, safe, serivceUrl) => {
     });
 };
 exports.setupSafeDeployer = setupSafeDeployer;
-//# sourceMappingURL=plugin.js.map
+//# sourceMappingURL=index.js.map
